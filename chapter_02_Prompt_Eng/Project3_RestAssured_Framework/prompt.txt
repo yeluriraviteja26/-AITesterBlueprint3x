@@ -1,0 +1,19 @@
+
+
+Build tool: Maven or Gradle
+Dependencies
+rest-assured
+JSON handling: json-path, jackson-databind, or gson
+Test runner: JUnit 5 or TestNG
+Logging/reporting: slf4j, allure, extent-reports, or reportportal
+Configuration management
+environment properties for base URLs, auth, timeouts
+support multiple environments (dev/stage/prod) without code changes
+Test structure
+request/response specifications
+service layer or client classes wrapping API endpoints
+reusable utilities for auth, headers, payloads
+CI/CD integration
+run tests as part of pipeline
+publish reports
+fail fast on regressions
